@@ -26,19 +26,19 @@ class Home1 extends StatelessWidget {
               decoration: const BoxDecoration(
                   color: Color.fromRGBO(20, 68, 42, 5),
                   image: DecorationImage(
-                      image: AssetImage('assets/111.png'), fit: BoxFit.cover)),
+                      image: AssetImage('assets/333.png'), fit: BoxFit.cover)),
             ),
             Container(
               margin: EdgeInsets.only(top: 30, right: 80, left: 80, bottom: 8),
               child: Text(
-                'XAMSA ASARI',
+                'LISON UT-TAYR',
                 style: TextStyle(color: Color(0xffD1AE52), fontSize: 28),
               ),
             ),
             Container(
               margin: EdgeInsets.only(right: 39, left: 39, bottom: 37),
               child: Text(
-                'Alisher Navoiy ijodining yuksak choʻqqisi „Xamsa“ asari (1483-85)dir, shoir birinchilardan boʻlib, turkiy tilda toʻliq „Xamsa“ yaratdi.',
+                'Lison ut-tayr (arab. — "Qushlar tili") — Alisher Navoiyning dostoni, oʻzbek mumtoz adabiyoti va oʻzbek adabiy tilining muhim yodgorliklaridan.',
                 style: TextStyle(color: Colors.white, fontSize: 16),
                 textAlign: TextAlign.center,
               ),
@@ -59,7 +59,7 @@ class Home1 extends StatelessWidget {
                   height: 8,
                   margin: EdgeInsets.only(left: 3, right: 3),
                   decoration: BoxDecoration(
-                      color: Color(0xffD1AE52),
+                      color: Color(0xffffffff),
                       borderRadius: BorderRadius.all(Radius.circular(16))),
                 ),
                 Container(
@@ -67,9 +67,9 @@ class Home1 extends StatelessWidget {
                   height: 8,
                   margin: EdgeInsets.only(left: 3, right: 3),
                   decoration: BoxDecoration(
-                      color: Color(0xffffffff),
+                      color: Color(0xffD1AE52),
                       borderRadius: BorderRadius.all(Radius.circular(16))),
-                )
+                ),
               ],
             ),
             Container(
@@ -81,7 +81,7 @@ class Home1 extends StatelessWidget {
                   borderRadius: BorderRadius.all(Radius.circular(32))),
               child: Center(
                 child: Text(
-                  'Davom Ettirish',
+                  'Kirish',
                   textAlign: TextAlign.center,
                   style: TextStyle(color: Colors.white, fontSize: 18),
                 ),
